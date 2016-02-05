@@ -23,7 +23,8 @@ public class MainActivity extends Activity
 	private String patch;
 	private String fileout = "/mnt/sdcard/data/4pdaclient/styles/";
 	private String plusFileOut = "mnt/sdcard/Android/data/org.softeg.slartus.forpdaplus/files/styles/"; 
-	private String[] filesOut= {fileout, plusFileOut };
+	private String plusBetaFileOut = "mnt/sdcard/Android/data/org.softeg.slartus.forpdaplus/files/styles/"; 
+	private String[] filesOut= {fileout, plusFileOut, plusBetaFileOut };
 	private String nameFile;
 	private String style;
 	private String errorOpen = "Ошибка открытия стиля!";
